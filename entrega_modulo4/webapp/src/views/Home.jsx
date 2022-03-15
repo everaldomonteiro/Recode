@@ -8,12 +8,6 @@ export default function Home() {
         <>
             <main>
                 <h2>Home</h2>
-                {/* <div className="jumbotron jumbotron-fluid bg-transparent">
-                    <div className="container">
-                        <h1 className="display-4">Monteiro Viagens</h1>
-                        <p className="lead">seja a trabalho ou por pura diversão te ajudamos a alcançar seus objetivos!</p>
-                    </div>
-                </div> */}
                 <div className="container">
                     <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" style={{height: "60%"}}>
                     <ol className="carousel-indicators">
@@ -90,7 +84,7 @@ export default function Home() {
                         <li>sucesso de pessoas e de empresas</li>
                     </ul>
 
-                    WWW.MONTEIROVIAGENS.COM.BR
+                    <a href="#">WWW.MONTEIROVIAGENS.COM.BR</a>
                 </aside>
                 <article className="conteudo d-flex flex-wrap container align-items-center justify-content-around">
                     <div className="circulo">SEGURANÇA</div>
@@ -99,9 +93,6 @@ export default function Home() {
                     <div className="circulo">SONHOS</div>
                     <div className="circulo">FELICIDADE</div>
                     <div className="circulo">MOMENTOS</div>
-                    {/* <div className="circulo">VIAGENS</div> */}
-                    {/* <div className="circulo">PASSEIOS</div> */}
-                    {/* <div className="circulo">SEM BUROCRACIA</div> */}
                 </article>
             </section>
         </>

@@ -1,7 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import img1 from '../assets/img/d1.jpg';
-import img2 from '../assets/img/ny.jpg';
+import veneza from '../assets/img/veneza.jpg';
+import new_york from '../assets/img/ny.jpg';
+import iguacu from '../assets/img/foz_do_iguacu.jpg';
+import toronto from '../assets/img/toronto.jpg';
+import rio_de_janeiro from '../assets/img/rio_de_janeiro.jpg';
+import fernando_de_noronha from '../assets/img/fernando_de_noronha.jpg';
 
 
 export default function Destinos() {
@@ -13,7 +16,7 @@ export default function Destinos() {
                     <div className="card m-2" style={{ width: '18rem' }}>
                         <img
                             className="card-img-top"
-                            src={img1}
+                            src={veneza}
                             alt="Card image cap"
                         />
                         <div className="card-body">
@@ -25,7 +28,7 @@ export default function Destinos() {
                     <div className="card m-2" style={{ width: '18rem' }}>
                         <img
                             className="card-img-top"
-                            src={img2}
+                            src={new_york}
                             alt="Card image cap"
                         />
                         <div className="card-body">
@@ -37,7 +40,7 @@ export default function Destinos() {
                     <div className="card m-2" style={{ width: '18rem' }}>
                         <img
                             className="card-img-top"
-                            src="https://s1.1zoom.me/b5050/898/Coast_Houses_Canada_Lake_481500_1920x1080.jpg"
+                            src={toronto}
                             alt="Card image cap"
                         />
                         <div className="card-body">
@@ -49,7 +52,7 @@ export default function Destinos() {
                     <div className="card m-2" style={{ width: '18rem' }}>
                         <img
                             className="card-img-top"
-                            src="http://www.osmais.com/wallpapers/201601/rio-de-janeiro-wallpaper.jpg"
+                            src={rio_de_janeiro}
                             alt="Card image cap"
                         />
                         <div className="card-body">
@@ -61,7 +64,7 @@ export default function Destinos() {
                     <div className="card m-2" style={{ width: '18rem' }}>
                         <img
                             className="card-img-top"
-                            src="https://www.nerdediva.com.br/wp-content/uploads/2016/08/fernando-de-noronha-brazil_001090.jpg"
+                            src={fernando_de_noronha}
                             alt="Card image cap"
                         />
                         <div className="card-body">
@@ -73,7 +76,7 @@ export default function Destinos() {
                     <div className="card m-2" style={{ width: '18rem' }}>
                         <img
                             className="card-img-top"
-                            src="http://www.ebc.com.br/institucional/sites/_institucional/files/thumbnails/image/caminhos_da_reportagem_cataratas_do_iguacu.jpg"
+                            src={iguacu}
                             alt="Card image cap"
                         />
                         <div className="card-body">

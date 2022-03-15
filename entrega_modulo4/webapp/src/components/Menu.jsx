@@ -5,7 +5,7 @@ import logo from "../assets/img/logo2.png";
 export default function Menu() {
     return (
         <div className="bg-dark">
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark mx-auto">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark mx-auto container">
                 <a className="navbar-brand" href="/">
                     <img className="logo" height="140" src={logo} alt="logo" />
                 </a>

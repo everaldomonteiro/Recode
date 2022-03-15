@@ -1,5 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import canada from '../assets/img/canada.jpg';
+import franca from '../assets/img/franca.jpg';
+import japao from '../assets/img/japao.jpg';
+import portugal from '../assets/img/portugal.jpg';
+import russia from '../assets/img/russia.jpg';
+import mexico from '../assets/img/mexico.jpg';
 
 export default function Promocoes() {
     return (
@@ -10,7 +16,7 @@ export default function Promocoes() {
                     <div className="card m-2" style={{ width: '18rem' }}>
                         <img
                             className="card-img-top"
-                            src="https://s1.1zoom.me/b5050/21/407089-svetik_1920x1080.jpg"
+                            src={canada}
                             alt="Card image cap"
                         />
                         <div className="card-body">
@@ -35,7 +41,7 @@ export default function Promocoes() {
                     <div className="card m-2" style={{ width: '18rem' }}>
                         <img
                             className="card-img-top"
-                            src="https://s1.1zoom.me/b8048/487/Sky_Evening_France_Eiffel_Tower_Paris_From_above_520603_1920x1080.jpg"
+                            src={franca}
                             alt="Card image cap"
                         />
                         <div className="card-body">
@@ -59,7 +65,7 @@ export default function Promocoes() {
                     <div className="card m-2" style={{ width: '18rem' }}>
                         <img
                             className="card-img-top"
-                            src="https://s1.1zoom.me/b5050/668/Japan_Kyoto_Parks_Pond_Pagodas_564976_1920x1080.jpg"
+                            src={japao}
                             alt="Card image cap"
                         />
                         <div className="card-body">
@@ -83,7 +89,7 @@ export default function Promocoes() {
                     <div className="card m-2 mb-4" style={{ width: '18rem' }}>
                         <img
                             className="card-img-top"
-                            src="https://s1.1zoom.me/b5050/895/Coast_Evening_Houses_Portugal_Porto_534068_1920x1080.jpg"
+                            src={portugal}
                             alt="Card image cap"
                         />
                         <div className="card-body">
@@ -107,7 +113,7 @@ export default function Promocoes() {
                     <div className="card m-2 mb-4" style={{ width: '18rem' }}>
                         <img
                             className="card-img-top"
-                            src="https://s1.1zoom.me/b5050/894/424180-Kycb_1920x1080.jpg"
+                            src={russia}
                             alt="Card image cap"
                         />
                         <div className="card-body">
@@ -131,7 +137,7 @@ export default function Promocoes() {
                     <div className="card m-2 mb-4" style={{ width: '18rem' }}>
                         <img
                             className="card-img-top"
-                            src="https://s1.1zoom.me/b5070/442/Mexico_Sunrises_and_sunsets_Temples_Temple_of_542460_1920x1080.jpg"
+                            src={mexico}
                             alt="Card image cap"
                         />
                         <div className="card-body">
