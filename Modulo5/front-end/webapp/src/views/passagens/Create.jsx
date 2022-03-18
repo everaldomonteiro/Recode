@@ -77,7 +77,7 @@ export default function Create() {
   return (
     <main>
       <div className="container py-3">
-        <form>
+        <form className="d-flex justify-content-center">
           <fieldset>
             <legend>
               <h2 className="text-center">{id ? "Editar" : "Criar"}</h2>
