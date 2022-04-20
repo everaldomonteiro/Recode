@@ -1,0 +1,43 @@
+@model dotnet.Models.Faz
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+</head>
+<body>
+
+<h4>Faz</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="ClienteID_Cliente" class="control-label"></label>
+                <select asp-for="ClienteID_Cliente" class="form-control" asp-items="ViewBag.ClienteID_Cliente"></select>
+                <span asp-validation-for="ClienteID_Cliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ViagemID_Viagem" class="control-label"></label>
+                <select asp-for="ViagemID_Viagem" class="form-control" asp-items="ViewBag.ViagemID_Viagem"></select>
+                <span asp-validation-for="ViagemID_Viagem" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+</body>
+</html>
